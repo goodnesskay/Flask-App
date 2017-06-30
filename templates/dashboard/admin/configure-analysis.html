@@ -1,0 +1,52 @@
+{% extends "dashboard/layout/layout.html" %}
+
+{% block content %}
+    <div class="content-page">
+                <!-- Start content -->
+                <div class="content">
+                    <div class="container">
+                        <!-- Forms -->
+                        <div class="row">
+                        	<div class="col-sm-12">
+                        		<div class="card-box">
+                        			<div class="row">
+                        				<div class="col-md-12">
+                        					<h4 class="m-t-0 header-title"><b>Configuration For New Data Analysis</b></h4>
+                        					<p class="text-muted m-b-30 font-13">
+												Fill the form below to configure a new data analysis instance.
+											</p>
+
+											<form role="form">
+	                                            <div class="form-group m-b-0">
+	                                                <label for="">Instance Name</label>
+	                                                <input type="text" class="form-control" id=""
+                                                           placeholder="Enter a name for the current Analysis Instance">
+	                                            </div>
+                                                 <br>
+                                                  <div class="m-b-0">
+                                                    <label for="">Data Demography to be considered</label>
+                                                       <br>
+                                                    <select multiple data-role="tagsinput">
+                                                        <option value="Amsterdam">Amsterdam</option>
+                                                        <option value="Washington">Washington</option>
+                                                        <option value="Sydney">Sydney</option>
+                                                    </select>
+                                                </div>
+                                                 <br>
+	                                            <button type="submit" class="btn btn-purple waves-effect waves-light">Submit</button>
+	                                        </form>
+                        				</div><!-- end col -->
+                                    </div><!-- end row -->
+                        		</div>
+                        	</div><!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                    </div> <!-- container -->
+
+                </div> <!-- content -->
+
+
+
+            </div>
+{% endblock %}

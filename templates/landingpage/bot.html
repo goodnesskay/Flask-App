@@ -1,0 +1,218 @@
+{% extends 'landingpage/layouts/master.html' %}
+
+{% block title %}Bot{% endblock %}
+{% block header_class %}nav nav--transparent{% endblock %}
+
+
+{% block content %}
+ <div class="content-wrapper oh">
+
+      <!-- Hero -->
+      <section class="hero bg-img bg-gradient white-text" style="background-image: url(landing/other/img/hero/hero_1.jpg);">
+        <div class="container  hero__container container-full-height">
+
+          <div class="row hero__outer flex-vertical-align-center">
+            <div class="col-md-7">
+              <h1 class="hero__title hero--boxed">
+                Norman Bot <br>
+                <span class="btn--color">Your Social Intelligent Health Assistant</span>
+              </h1>
+              <div class="hero__btn-holder mt-30">
+                <a href="#" class="btn btn--lg btn--color rounded"><span>Try it Now</span></a>
+                <div class="play-btn__wrap">
+                  <a href="" class="play-btn play-btn--sm play-btn--white single-video-lightbox"></a>
+                  <span class="play-btn__text">How it Works</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 col-md-offset-0">
+              <img src="{{ url_for('static', filename="landing/assets/images/norman-android.png") }}" class="mt-80" alt="">
+            </div>
+          </div>
+
+        </div>
+      </section> <!-- end hero -->
+
+
+      <!-- Intro -->
+      <section class="section-wrap bottom-divider">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <span class="intro__subtitle uppercase">Create. Visualize. Deploy</span>
+              <h2 class="intro__title">
+                An idea that takes the parts of a structure and turns them into a whole system. Practice is the frequent and continued contemplation of the mode of executing any given work, or of the mere operation.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section> <!-- end intro -->
+
+      <!-- Promo Section -->
+      <section class="section-wrap promo-section bottom-divider pb-100">
+        <div class="container ">
+          <div class="row flex-parent flex-vertical-align-center flex-sm-collapse">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <img src="{{ url_for('static', filename='landing/other/img/promo/1.jpg') }}" alt="" class="promo-section__img">
+              <a href="https://www.youtube.com/watch?v=nVzVohG304A?autoplay=1" class="play-btn play-btn--center icon-wave single-video-lightbox"></a>
+            </div>
+            <div class="col-md-5 col-md-offset-1 col-sm-12">
+              <div class="promo-section__description">
+                <h2 class="promo-section__title">Intuitive interface for collaboration</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> <!-- end promo section -->
+
+      <!-- Promo Section -->
+      <section class="section-wrap promo-section bottom-divider pb-100">
+        <div class="container ">
+          <div class="row flex-parent flex-vertical-align-center flex-sm-collapse">
+            <div class="col-md-5 col-sm-12">
+              <div class="promo-section__description">
+                <h2 class="promo-section__title">Operate the software in real time from any device</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-md-offset-1 col-sm-12">
+              <img src="{{ url_for('static', filename='landing/other/img/promo/2.jpg') }}" alt="" class="promo-section__img">
+            </div>
+          </div>
+        </div>
+      </section> <!-- end promo section -->
+
+
+
+         <section class="section-wrap pt-70 pb-130 bg-light">
+        <div class="container">
+          <div class="row row-60 items-grid">
+
+
+            <div class="col-md-4 col-xs-6 col-xxs-12">
+              <a href="#" class="box-shadow">
+                <div class="feature-1__icon-holder feature-1__icon-holder--pink text-center">
+                  <i class="ui-book feature-1__icon"></i>
+                </div>
+                <div class="feature-1__base">
+                  <h3 class="feature-1__title">Appointments/Scheduling</h3>
+                  <p class="feature-1__paragraph">
+                  This service allows patients to fix appointment at hospital.
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-xs-6 col-xxs-12">
+              <a href="#" class="box-shadow">
+                <div class="feature-1__icon-holder feature-1__icon-holder--blue text-center">
+                  <i class="ui-designer-cup feature-1__icon"></i>
+                </div>
+                <div class="feature-1__base">
+                  <h3 class="feature-1__title">Real-Time Messaging</h3>
+                  <p class="feature-1__paragraph">
+                        This service provides a real time messaging interface between patient's social media platform and hospital.
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-xs-6 col-xxs-12">
+              <a href="#" class="box-shadow">
+                <div class="feature-1__icon-holder feature-1__icon-holder--pink text-center">
+                  <i class="ui-book feature-1__icon"></i>
+                </div>
+                <div class="feature-1__base">
+                  <h3 class="feature-1__title">Inventory</h3>
+                  <p class="feature-1__paragraph">
+                      This services allows hospital keep track of patients registered under them.
+                  </p><br><br>
+                </div>
+              </a>
+            </div>
+
+
+            <div class="col-md-4 col-xs-6 col-xxs-12">
+              <a href="#" class="box-shadow">
+                <div class="feature-1__icon-holder feature-1__icon-holder--pink text-center">
+                  <i class="ui-book feature-1__icon"></i>
+                </div>
+                <div class="feature-1__base">
+                  <h3 class="feature-1__title">Form Filling</h3>
+                  <p class="feature-1__paragraph">
+                  With Norman bot, bye to boring forms as the bot provides you a more interactive and fun-filled platform of filling forms.
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-xs-6 col-xxs-12">
+              <a href="#" class="box-shadow">
+                <div class="feature-1__icon-holder feature-1__icon-holder--blue text-center">
+                  <i class="ui-book feature-1__icon"></i>
+                </div>
+                <div class="feature-1__base">
+                  <h3 class="feature-1__title">Registration</h3>
+                  <p class="feature-1__paragraph">
+                      You can register under an hospital via Norman bot. All you need do is select your location and the hospital you want to register under.
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-xs-6 col-xxs-12">
+              <a href="#" class="box-shadow">
+                <div class="feature-1__icon-holder feature-1__icon-holder--blue text-center">
+                  <i class="ui-book feature-1__icon"></i>
+                </div>
+                <div class="feature-1__base">
+                  <h3 class="feature-1__title">Location</h3>
+                  <p class="feature-1__paragraph">
+                  Norman helps track your location and also helps you in locating health centers close to you, the direction to your hospital and health centers in other cities.
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-xs-6 col-xxs-12">
+              <a href="#" class="box-shadow">
+                <div class="feature-1__icon-holder feature-1__icon-holder--pink text-center">
+                  <i class="ui-book feature-1__icon"></i>
+                </div>
+                <div class="feature-1__base">
+                  <h3 class="feature-1__title">Drug Detailing</h3>
+                  <p class="feature-1__paragraph">
+Get to know about the drug you want to use before taking them through Norman bot.
+                  </p>
+                </div>
+              </a>
+            </div>
+
+
+
+            <div class="col-md-4 col-xs-6 col-xxs-12">
+              <a href="#" class="box-shadow">
+                <div class="feature-1__icon-holder feature-1__icon-holder--blue text-center">
+                  <i class="ui-designer-cup feature-1__icon"></i>
+                </div>
+                <div class="feature-1__base">
+                  <h3 class="feature-1__title">Reminder</h3>
+                  <p class="feature-1__paragraph">
+                            This service handles all reminder related events.
+                          It tries to unburden your patient from excessively remembering some things by providing the following features:
+
+                        <ul class="specs-list">
+                                <li>Drug use Reminder</li>
+                                <li>Appointment Reminders</li>
+                                <li>User Specific Reminders</li>
+                            </ul>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+{% endblock %}

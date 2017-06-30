@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="keywords" content="norman,bot,ai,health" />
+  <meta name="author" content="Norman Inc." />
+  <meta name="description" content="">
+  <!-- Page Title -->
+  <title>Norman | The Health Redefining Platform </title>
+  <link rel="shortcut icon" href="{{ url_for('static', filename="landing/assets/assets/images/favicon.ico") }}" />
+
+  <!-- Theme Style -->
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700italic,700,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ url_for('static', filename="landing/assets/css/animate.css") }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename="landing/assets/css/font-awesome.min.css") }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename="landing/assets/css/owl.carousel.min.css") }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename="landing/assets/css/owl.theme.default.min.css") }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename="landing/assets/css/mediaelementplayer.min.css") }}" media="screen" />
+  <link href="{{ url_for('static', filename="landing/assets/css/bootstrap.min.css") }}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename="landing/assets/css/style.css") }}">
+  <link rel="stylesheet" id="theme-switch" href="{{ url_for('static', filename="landing/assets/css/orange.css") }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename="landing/assets/css/responsive.css") }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename="landing/assets/css/component.css") }}" />
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if gte IE 9]><link rel="stylesheet" type="text/css" href="{{ url_for('static', filename="landing/assets/css/ie9.css") }}" /><![endif]-->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body id="page-top">
+<div id="wrapper" class="wrapper-main">
+
+  <!-- Site Loder-->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loading-text">Loading...</div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+  <!-- Header Start-->
+  <header id="main-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12">
+          <!-- Company Logo -->
+          <a href="index-2.html" title="Freelancer Coder">
+            <img src="{{ url_for('static', filename="landing/assets/images/logo.png") }}" alt="Freelancer Coder">
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 hide-mobile">
+          <!-- Social Network Start -->
+          <div class="socialnetworks">
+            <ul class="pull-right">
+              <li><a href="javascript:void(0);" title="Phone"><i class="fa fa-phone"></i></a><span>
+                (+234) 9036671876
+              </span></li>
+              <li><a href="javascript:void(0);" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="javascript:void(0);" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="javascript:void(0);" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="javascript:void(0);" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <!-- Social Network End -->
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header End-->
+
+  <!-- Top Part Start-->
+  <div class="main-top-section">
+    <!-- Top Navigation -->
+    <div class="main-navigation">
+      <!-- Navigation -->
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <!-- Brand and Toggle Get Grouped for Better Mobile Display -->
+          <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <!-- Collect The Nav Links, Forms, and Other Content for Toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Started <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <ul>
+                      <li class="nav-title"><a href="">Hospital</a></li>
+                      <li class="nav-title"><a href="">Patient</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><a class="page-scroll" href="#the-problem-we-solve">The Problem We Solve</a></li>
+              <li><a class="page-scroll" href="#our-solution">Our Solution</a></li>
+              <li><a class="page-scroll" href="{{ url_for('services') }}">Services</a></li>
+              <li><a class="page-scroll" href="{{ url_for('bot') }}">Norman Bot</a></li>
+              <li><a class="page-scroll" href="#how-it-works">How It Works</a></li>
+              <li><a class="page-scroll" href="pricing.html">Pricing</a></li>
+              <li><a class="page-scroll" href="#get-in-touch">Get In Touch</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Top Slider -->
+    <div class="main-top-slider">
+      <div id="main-slider" class="owl-carousel">
+        <!-- Item 1 -->
+        <div class="item">
+          <div class="overlay-slider"></div>
+          <img src="{{ url_for('static', filename="landing/assets/images/slide-1.jpg") }}" alt="">
+          <div class="slider-text-section">
+            <div class="container">
+              <div class="slider-text">
+                <div class="slider-title to-animate">A New Insight To Health</div>
+                <p class="to-animate-2">
+                    A platform commited to improving the health space of the world from data using technology.
+                </p>
+                <div class="list-btn to-animate">
+                  <a href="javascript:void(0);" class="btns" title="View Portfolio">Get Started<span><i class="fa fa-long-arrow-right"></i></span></a>
+                  <a href="javascript:void(0);" class="btns" title="Quick contact">How it Works<span><i class="fa fa-long-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="item">
+          <div class="overlay-slider"></div>
+          <img src="{{ url_for('static', filename="landing/assets/images/slide-1.jpg") }}" alt="">
+          <div class="slider-text-section">
+            <div class="container">
+              <div class="slider-text">
+                <div class="slider-title to-animate">
+                  Effective Research and Analysis of Health Data
+                </div>
+                <p class="to-animate-2">
+                  With Norman, your hospital can now serve you better.
+                </p>
+                <div class="list-btn to-animate">
+                  <a href="" class="btns" title="Get Started">Get Started<span><i class="fa fa-long-arrow-right"></i></span></a>
+                  <a href="" class="btns" title="How it Works">How it Works<span><i class="fa fa-long-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="item">
+          <div class="overlay-slider"></div>
+          <img src="{{ url_for('static', filename="landing/assets/images/slide-1.jpg") }}" alt="">
+          <div class="slider-text-section">
+            <div class="container">
+              <div class="slider-text">
+                <div class="slider-title to-animate">
+                  A Platform that brings the hospital closer
+                </div>
+                <p class="to-animate-2">
+                  Norman provides a state of art platform for Patient health monitoring outside the walls of a health facility.
+                </p>
+                <div class="list-btn to-animate">
+                  <a href="" class="btns" title="Get Started">Get Started<span><i class="fa fa-long-arrow-right"></i></span></a>
+                  <a href="" class="btns" title="How it Works">How it Works<span><i class="fa fa-long-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Top Part End-->
+
+
+
+  <section id="the-problem-we-solve">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12 section-heading text-center">
+          <h2>The Problem We Solve</h2>
+        </div>
+        <div class="col-md-12 text-center">
+          <p>
+            The health sector, being a very vital sector of the economy, faces the highlighted problems that we have solutions for.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 services-all">
+          <div class="service-box">
+            <div class="services-icon"><i class="fa fa-desktop"></i></div>
+            <div class="small-title text-center">Health Data</div>
+            <p>
+              Effective, efficient and accessible data storage has been an unaddressed issue for years
+              now and has contributed to the state of the health sector.
+            </p>
+            <!-- Problem-panel Overlay Effect -->
+            <div class="overlay">
+              <div class="small-title small-title-hover">Health Data</div>
+              <p>
+                Effective, efficient and accessible data storage has been an unaddressed issue for years
+              now and has contributed to the state of the health sector.
+              </p>
+            </div>
+            <img alt="" src="{{ url_for('static', filename="landing/assets/images/blank.png") }}" class="blank"> </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 services-all">
+          <div class="service-box">
+            <div class="services-icon"><i class="fa fa-desktop"></i></div>
+            <div class="small-title text-center">Research and Analysis</div>
+            <p>
+              Research and Analysis of the available health data have not been
+              effective as it is meant to in the health sector due to limited data.
+            </p>
+            <!-- Problem-panel Overlay Effect -->
+            <div class="overlay">
+              <div class="small-title small-title-hover">Research and Analysis</div>
+              <p>
+                Research and Analysis of the available health data have not been
+              effective as it is meant to in the health sector due to limited data.
+              </p>
+            </div>
+            <img alt="" src="{{ url_for('static', filename="landing/assets/images/blank.png") }}" class="blank"> </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 services-all">
+          <div class="service-box">
+            <div class="services-icon"><i class="fa fa-desktop"></i></div>
+            <div class="small-title text-center">Patient's Care</div>
+            <p>
+              Patient's health monitoring outside the walls of a health facility has always been a problem. Many patients have lost their lives because of this.
+            </p>
+            <!-- Problem-panel Overlay Effect -->
+            <div class="overlay">
+              <div class="small-title small-title-hover">Patient's Care</div>
+              <p>
+                Patient's health monitoring outside the walls of a health facility has always been a problem. Many patients have lost their lives because of this.
+              </p>
+            </div>
+            <img alt="" src="{{ url_for('static', filename="landing/assets/images/blank.png") }}" class="blank"> </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section style="background:#0077b5;" id="our-solution">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12 section-heading white text-center">
+          <h2>Our Solution</h2>
+        </div>
+        <div class="col-md-12 text-center">
+          <p style="color:white;">
+            Our mission is to improve the health space of the world from data using technology and these
+            are how we acheive that
+          </p>
+        </div>
+      </div>
+      <div class="row m-t-60">
+        <div class="l-skill-nav item_left">
+          <div class="col-xs-12 col-sm-5 col-md-4">
+            <nav class="slide-effect">
+              <div class="col-xs-4 col-sm-12 col-md-12">
+                <div class="row">
+                <a style="font-size:15px;" class="skills-pink btn-skills " data-hover="" href="">
+                  <div class="skill-icon"><i class="fa fa-magic"></i></div>
+                  An efficient and effective data storage, management and analytics platform for health facilities capable of carrying out and automating medical research work.
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-xs-4 col-sm-12 col-md-12">
+                <div class="row">
+                <a style="font-size:15px;" class="skills-blue btn-skills active" data-hover="" href="">
+                  <div class="skill-icon"><i class="fa fa-magic"></i></div>
+                    An AI  powered conversational system that keeps track of patient's health activities outside the hospital.
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-xs-4 col-sm-12 col-md-12">
+                <div class="row">
+                <a style="font-size:15px;" class="skills-green btn-skills " data-hover="" href="">
+                  <div class="skill-icon"><i class="fa fa-magic"></i></div>
+                    A state of the art platform that stores, manages, analyses and utilizes hospital data in the most standard way while providing a platform for patients to get better services using conversational systems.
+                  </a>
+                </div>
+              </div>
+
+            </nav>
+          </div>
+          <div class="col-xs-12 col-sm-7 col-md-8">
+            <div class="pie-main">
+              <div class="item_bottom" id="pie-container">
+                  <img src="{{ url_for('static', filename="landing/assets/images/norman-android.png") }}" class="img-responsive">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- How  it works Section -->
+  <section id="how-it-works">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12 section-heading text-center">
+          <h2>How Norman Works</h2>
+        </div>
+        <div class="col-md-12 text-center">
+          <p>
+            To improve the health space with efficeint technology, Norman's solution has been simplified into three easy steps.
+          </p>
+        </div>
+      </div>
+      <div class="work-process-section">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
+            <div class="work-process-left">
+              <div class="process-icon"><img alt="work process" src="{{ url_for('static', filename="landing/assets/images/requirements-understanding.png") }}"></div>
+              <div class="process-arrow"><img alt="work process" src="{{ url_for('static', filename="landing/assets/images/arrow-down1.png") }}"></div>
+              <div class="process-content">
+                <div class="process-content-h4">Hospital Register</div>
+                <p>
+                  Hospital registers on the platform
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
+            <div class="work-process-right">
+              <div class="process-icon"><img alt="work process" src="{{ url_for('static', filename="landing/assets/images/research&planning.png") }}"></div>
+              <div class="process-arrow"><img alt="work process" src="{{ url_for('static', filename="landing/assets/images/arrow-down2.png") }}"></div>
+              <div class="process-content-right">
+                <div class="process-content-h4">Access Dashboard</div>
+                <p>
+                  Hospital gets access to the Norman Dashboard and uploads data and patient for Norman to handle.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
+            <div class="work-process-left">
+              <div class="process-icon"><img alt="work process" src="{{ url_for('static', filename="landing/assets/images/wireframe&design.png") }}"></div>
+              <div class="process-content">
+                <div class="process-content-h4">Efficient System</div>
+                <p>
+                  Norman efficiently manages hospital data and patient.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background-color:#0077b5;" id="">
+    <div >
+      <div class="overlay-bg"></div>
+      <div class="container">
+        <div class="row wow fadeInUp">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="text-left advertise">
+              <div class="section-heading white">What are you waiting for?</div>
+              <p class="white">
+                Norman is a state of art platform commited to improving the health space of the world from data using technology. Help us acheive our aim.
+              </p>
+              <div class="advertise-btn"><a class="btns btns-big" target="_blank" href="">Get Started<span><i class="fa fa-long-arrow-right"></i></span></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Video Section-->
+  <section id="video">
+    <div class="video-section">
+      <div class="video-image" id="video-image" style="background:url(assets/images/video-bg.jpg) center center no-repeat;"></div>
+      <div class="full-video-section" id="full-video-section" style="z-index: -1">
+        <video id="video_block" preload autoplay loop muted>
+          <source type="video/mp4" src="{{ url_for('static', filename="landing/assets/images/media/theme-video.mp4") }}">
+        </video>
+      </div>
+      <div class="video-title-text">
+        <h2>
+        A demo of the solution Norman provides
+        </h2>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Contact us Section -->
+  <section id="get-in-touch">
+    <!-- Map Section -->
+    <div class="google-map">
+      <div id="cp-content-wrap">
+        <div class="cp-google-map">
+          <div id="map_canvas" class="map_canvas"></div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <!-- Contact Section -->
+    <div class="container">
+      <div class="contact-section wow fadeInUp">
+        <div class="row">
+          <!-- Contact Form Left Section-->
+          <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+            <!-- Contact Form -->
+            <div class="contact-main-section">
+              <div class="small-title small-title-pad">
+                <h3>Talk to Us</h3>
+              </div>
+              <form id="main-form">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <input type="text" aria-required="true" id="name" placeholder="Name*" name="name" class="input-text">
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <input type="email" aria-required="true" id="email" placeholder="Email*" name="email" class="input-text">
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <input type="text" aria-required="true" id="subject" placeholder="Subject*" name="subject" class="input-text">
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <textarea aria-required="true" id="comment" placeholder="Message*" rows="7" name="comment" class="input-text"></textarea>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <button type="submit"  id="submit" class="btn btn-primary">contact<i class="fa fa-long-arrow-right btn-arrow"></i></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- Contact Form Right Section-->
+          <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+            <!-- Address Section -->
+            <div class="small-title small-title-pad">
+              <h3>Get in touch with us</h3>
+            </div>
+            <div class="contact-detail">
+              <div class="details">
+                <div class="fc-email"><i class="fa fa-envelope-o"></i><a href="mailto:info@codertheme.com">bot.normanai@gmail.com</a></div>
+                <div class="fc-contact-no"><i class="fa fa-phone"></i><a href="tel:+">(+234) 9036671876</a></div>
+              </div>
+              <div class="details address">
+                <h4>Our Location</h4>
+                <p>Ilab, <br>
+                 Department of Electronics Electrical Engineering, <br>
+                  Obafemi Awolowo University.
+                </p>
+              </div>
+              <div class="details follow-me">
+                <h4>Follow Us</h4>
+                <div class="social-box-icon"> <a title="Twitter" target="_blank" href="javascript:void(0);"><i class="fa fa-twitter"></i></a> <a title="facebook" target="_blank" href="javascript:void(0);"><i class="fa fa-facebook"></i></a> <a title="linkedin" target="_blank" href="javascript:void(0);"><i class="fa fa-linkedin"></i></a> <a title="instagram" target="_blank" href="javascript:void(0);"><i class="fa fa-instagram"></i></a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <!-- Footer Top Section -->
+    <div style="background-color:#0077b5;" class="footer-top">
+      <div style="background-color:#0077b5;">
+        <div class="overlay-bg"></div>
+        <div  class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-3">
+              <!-- <div class="footer-logo"><a href="javascript:void(0);"><img src="{{ url_for('static', filename="landing/assets/images/footer-logo.png") }}" alt="freelancer-coder-logo"></a></div>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9">
+              <div class="footer-about-content">
+                A platform commited to improving the health space of the world from data using technology.
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Section -->
+
+    <div class="footer-bottom-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-8 col-md-6">
+            <div class="copyright-text wow fadeInUp">&copy; 2017 Norman Inc.</div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-6">
+            <div class="footer-social-icons wow fadeInUp">
+              <a class="circle" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+              <a class="circle" href="javascript:void(0);"><i class="fa fa-facebook"></i></a>
+              <a class="circle" href="javascript:void(0);"><i class="fa fa-linkedin"></i></a>
+              <a class="circle" href="javascript:void(0);"><i class="fa fa-google-plus"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal Content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="portfolio-pop">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section-heading text-center wow fadeInUp">
+                <!-- Project Title -->
+                <h2>Project 1/2 Slider</h2>
+              </div>
+              <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 wow fadeInUp">
+                <!-- Project Slider -->
+                <div id="portfolio-carousel" class="owl-carousel">
+                  <div class="item"> <img alt="author" src="{{ url_for('static', filename="landing/assets/images/works/p1.jpg") }}"> </div>
+                  <div class="item"> <img alt="author" src="{{ url_for('static', filename="landing/assets/images/works/p2.jpg") }}"> </div>
+                  <div class="item"> <img alt="author" src="{{ url_for('static', filename="landing/assets/images/works/p3.jpg") }}"> </div>
+                  <div class="item"> <img alt="author" src="{{ url_for('static', filename="landing/assets/images/works/p1.jpg") }}"> </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeInUp">
+                <!-- Project Description -->
+                <h4 class="text-left">Project Description</h4>
+                <p>There are many variations of passages Lorem Ipsum available of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                <div class="space"></div>
+                <p>Type: Digital Art</p>
+                <p>Client: Tobias van Schneider</p>
+                <p>Link: <a href="javascript:void(0);">https://www.xyz.com/</a></p>
+                <div class="space"></div>
+                <!-- Shares -->
+                <h4>Share</h4>
+                <div class="social-box-icon">
+                  <a href="javascript:void(0);" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
+                  <a href="javascript:void(0);" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a>
+                  <a href="javascript:void(0);" target="_blank" title="linkedin"><i class="fa fa-linkedin"></i></a>
+                  <a href="javascript:void(0);" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a>
+                </div>
+                <!-- End: Project Description and Share -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Javscript Files-->
+<script src="{{ url_for('static', filename="landing/assets/js/jquery.min.js") }}"></script>
+<script src="{{ url_for('static', filename="landing/assets/js/bootstrap.js") }}"></script>
+<script src="{{ url_for('static', filename="landing/assets/js/jquery.validate.js") }}"></script>
+<script src="{{ url_for('static', filename="landing/assets/js/wow.min.js") }}"></script>
+<script src="{{ url_for('static', filename="landing/assets/js/jquery.cookie.js") }}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename="landing/assets/js/themeoption.js") }}" type="text/javascript"></script>
+<script type="text/javascript" src="{{ url_for('static', filename="landing/assets/js/mediaelement-and-player.js") }}"></script>
+<script src="{{ url_for('static', filename="landing/assets/js/config.js") }}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename="landing/assets/js/piebar.js") }}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename="landing/assets/js/jquery.mixitup.min.js") }}"></script>
+<script src="{{ url_for('static', filename="landing/assets/js/owl.carousel.js") }}"></script>
+<script src="{{ url_for('static', filename="landing/assets/js/jquery.easing.min.js") }}"></script>
+<script src="{{ url_for('static', filename="landing/assets/js/sector.js") }}"></script>
+<script src="{{ url_for('static', filename="landing/assets/js/main.js") }}"></script>
+<script src="{{ url_for('static', filename="landing/assets/js/classie.js") }}"></script>
+</body>
+</html>

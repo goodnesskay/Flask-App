@@ -1,40 +1,35 @@
-{% include 'header.html' %}
+{% extends 'landingpage/layouts/master.html' %}
 
-  <section style=" height:0%;" class="main-slider" id="banner">
-        <div class="tp-banner-container">
-            <div class="tp-banner">
-                <ul>
-                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/medical-image.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
-                    <img src="{{ url_for('static', filename='landing/images/medical-image.jpg') }}"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-                     <div class="tp-caption sfl sfb tp-resizeme col-sm-12 col-xs-12"
-                    data-x="center" data-hoffset="15"
-                    data-y="center" data-voffset="30"
-                    data-speed="1500"
-                    data-start="500"
-                    data-easing="easeOutExpo"
-                    data-splitin="none"
-                    data-splitout="none"
-                    data-elementdelay="0.01"
-                    data-endelementdelay="0.3"
-                    data-endspeed="1200"
-                    data-endeasing="Power4.easeIn"><div class="text">
-                    <h2 style="text-align-all:center;" class="text-center">PRIVACY POLICY</h2>
-                </div></div>
-                    </li>
-                </ul>
+{% block title %}Privacy Policy{% endblock %}
+{% block header_class %}nav {% endblock %}
 
+
+{% block content %}
+ <div class="content-wrapper oh">
+
+      <section class="page-title bottom-divider text-center">
+        <div class="container">
+
+          <div class="page-title__holder">
+            <div class="page-title__inner">
+              <div class="page-title__holder">
+                <h1 class="page-title__title">Privacy Policy</h1>
+                <p class="page-title__subtitle lead">
+                  In other to serve you well, we have taken effort to work on our privacy policy.
+                </p>
+              </div>
             </div>
+          </div>
+
         </div>
-    </section>
+      </section>
 
-<section class="faqs-section" id="faqs-section">
-    	<div class="auto-container">
-        	<!--Title-->
-        	<div class="sec-title centered">
-            	<h2>Norman Privacy Policy</h2>
-            </div>
-                                <div class="col-lg-12">
-    <h4>         <p>
+        <!-- Intro -->
+      <section class="section-wrap bottom-divider">
+        <div class="container">
+          <div class="row">
+            <div style="font-size:28px;" class="col-md-12 text-justify">
+               <h4>         <p>
     We provide you the right and control over your personal information while visiting our website <b>https://www.norman.ai</b> and through our chatbot product, <b>Norman</b> irrespective of the communication channel / chat software eg. Slack, Microsoft Skype etc. We acknowledge that personal information, such as your name, e-mail address, telephone number, etc. are kept private and confidential. At some point during your visit, you may be required to give that information for internal purposes. Accordingly, the information you provide is stored in a secure location and it is only accessible by designated staff of CollateBox.
     </p>
     <p>
@@ -96,22 +91,8 @@
     <p>If you have any questions about this Privacy Policy, please contact us at support (at) <b>Norman</b>.ai.</p>
         <p><b>Changes to our Privacy Policy</b></p>
         <p>This Privacy Policy may change from time to time. If we make a change to this privacy policy that we believe materially reduces your rights, we will provide you with notice (for example, by posting the modified policy on the site, at the time of <b>Norman</b> usage, by email etc). And we may provide notice of changes in other circumstances as well. By continuing to use the Service after those changes become effective, you agree to be bound by the revised Privacy Policy.</p>
-    </div>
-
-        </div>
-
-        <div class="outer-box clearfix">
-        	<!--Content Column-->
-            <div class="content-column">
-            	<div class="clearfix">
-                	<div class="content-box">
-                    	<!--Accordion Box-->
-                    </div>
-                </div>
             </div>
+          </div>
         </div>
-
-    </section>
-
-
-{% include 'footer.html' %}
+      </section>
+{% endblock %}

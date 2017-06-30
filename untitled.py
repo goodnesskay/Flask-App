@@ -14,6 +14,11 @@ def bot():
     return render_template('landingpage/bot.html')
 
 
+@app.route('/pricing', methods=['GET'])
+def pricing():
+    return render_template('landingpage/pricing.html')
+
+
 @app.route('/privacy', methods=['GET'])
 def privacy():
     return render_template('landingpage/privacy.html')

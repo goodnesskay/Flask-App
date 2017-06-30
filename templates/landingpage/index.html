@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Meta Tags -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="format-detection" content="telephone=no">
@@ -11,7 +10,7 @@
   <meta name="description" content="">
   <!-- Page Title -->
   <title>Norman | The Health Redefining Platform </title>
-  <link rel="shortcut icon" href="{{ url_for('static', filename="landing/assets/assets/images/favicon.ico") }}" />
+  <link rel="shortcut icon" href="{{ url_for('static', filename="landing/assets/images/favicon.ico") }}" />
 
   <!-- Theme Style -->
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700italic,700,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
@@ -50,8 +49,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12">
-          <!-- Company Logo -->
-          <a href="index-2.html" title="Freelancer Coder">
+          <a href="{{ url_for('home') }}" title="Norman Logo">
             <img src="{{ url_for('static', filename="landing/assets/images/logo.png") }}" alt="Freelancer Coder">
           </a>
         </div>
@@ -73,13 +71,9 @@
       </div>
     </div>
   </header>
-  <!-- Header End-->
 
-  <!-- Top Part Start-->
   <div class="main-top-section">
-    <!-- Top Navigation -->
     <div class="main-navigation">
-      <!-- Navigation -->
       <nav class="navbar navbar-default">
         <div class="container">
           <!-- Brand and Toggle Get Grouped for Better Mobile Display -->
@@ -91,7 +85,6 @@
               <span class="icon-bar"></span>
             </button>
           </div>
-          <!-- Collect The Nav Links, Forms, and Other Content for Toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li class="dropdown">
@@ -110,7 +103,7 @@
               <li><a class="page-scroll" href="{{ url_for('services') }}">Services</a></li>
               <li><a class="page-scroll" href="{{ url_for('bot') }}">Norman Bot</a></li>
               <li><a class="page-scroll" href="#how-it-works">How It Works</a></li>
-              <li><a class="page-scroll" href="pricing.html">Pricing</a></li>
+              <li><a class="page-scroll" href="{{ url_for('pricing') }}">Pricing</a></li>
               <li><a class="page-scroll" href="#get-in-touch">Get In Touch</a></li>
             </ul>
           </div>
@@ -142,7 +135,7 @@
         <!-- Item 2 -->
         <div class="item">
           <div class="overlay-slider"></div>
-          <img src="{{ url_for('static', filename="landing/assets/images/slide-1.jpg") }}" alt="">
+          <img src="{{ url_for('static', filename="landing/assets/images/slide-2.jpg") }}" alt="">
           <div class="slider-text-section">
             <div class="container">
               <div class="slider-text">
@@ -163,7 +156,7 @@
         <!-- Item 3 -->
         <div class="item">
           <div class="overlay-slider"></div>
-          <img src="{{ url_for('static', filename="landing/assets/images/slide-1.jpg") }}" alt="">
+          <img src="{{ url_for('static', filename="landing/assets/images/slide-3.jpg") }}" alt="">
           <div class="slider-text-section">
             <div class="container">
               <div class="slider-text">
@@ -337,7 +330,7 @@
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12">
             <div class="work-process-left">
-              <div class="process-icon"><img alt="work process" src="{{ url_for('static', filename="landing/assets/images/requirements-understanding.png") }}"></div>
+              <div class="process-icon"><img alt="work process" src="{{ url_for('static', filename="landing/assets/images/development&testing.png") }}"></div>
               <div class="process-arrow"><img alt="work process" src="{{ url_for('static', filename="landing/assets/images/arrow-down1.png") }}"></div>
               <div class="process-content">
                 <div class="process-content-h4">Hospital Register</div>

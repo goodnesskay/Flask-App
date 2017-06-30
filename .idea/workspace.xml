@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="72ad5a7b-2046-4a60-81ec-b9bca43037d3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/landingpage/index.html" afterPath="$PROJECT_DIR$/templates/landingpage/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/landingpage/single-service.html" afterPath="$PROJECT_DIR$/templates/landingpage/single-service.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +18,7 @@
       <file leaf-file-name="untitled.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/untitled.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="14">
               <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -26,11 +27,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/landingpage/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="332" column="141" lean-forward="false" selection-start-line="332" selection-start-column="141" selection-end-line="332" selection-end-column="141" />
+            <state relative-caret-position="231">
+              <caret line="127" column="80" lean-forward="false" selection-start-line="127" selection-start-column="80" selection-end-line="127" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single-service.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/landingpage/single-service.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="29" column="53" lean-forward="false" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/landingpage/services.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="155" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -58,6 +79,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>work</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -71,6 +97,7 @@
         <option value="$PROJECT_DIR$/untitled.py" />
         <option value="$PROJECT_DIR$/templates/landingpage/pricing.html" />
         <option value="$PROJECT_DIR$/templates/landingpage/index.html" />
+        <option value="$PROJECT_DIR$/templates/landingpage/single-service.html" />
       </list>
     </option>
   </component>
@@ -395,7 +422,7 @@
     <frame x="56" y="-11" width="1311" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25415677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25415677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -565,14 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/landingpage/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/landingpage/bot.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -591,9 +610,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/landingpage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="127" column="80" lean-forward="false" selection-start-line="127" selection-start-column="80" selection-end-line="127" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/landingpage/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="155" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/untitled.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="14">
           <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -601,10 +636,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/landingpage/index.html">
+    <entry file="file://$PROJECT_DIR$/templates/landingpage/single-service.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="332" column="141" lean-forward="false" selection-start-line="332" selection-start-column="141" selection-end-line="332" selection-end-column="141" />
+        <state relative-caret-position="376">
+          <caret line="29" column="53" lean-forward="false" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
           <folding />
         </state>
       </provider>
